@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getBranchList API Table</title>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>URL</th>
+            <td>https://api.squarenow.co.in/SquareNowWeb/fetchAllBranches</td>
+        </tr>
+        <tr>
+            <th>CONTENT TYPE</th>
+            <td>application/json</td>
+        </tr>
+        <tr>
+            <th>METHOD</th>
+            <td>POST</td>
+        </tr>
+        <tr>
+            <th>PAYLOAD (DATA)</th>
+            <td>
+                <pre>
+{
+  "CompanyID": "118",
+  "UserID": "16971",
+  "UserRole": "Admin",
+  "Level": "level100",
+  "DatabaseName": "General",
+  "BranchID": "0"
+}
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <th>RESPONSE</th>
+            <td>
+                <pre>
+{
+  "data": [
+    {
+      "BranchID": "1351",
+      "BranchName": "Anna Nagar West",
+      "UniqueBranchID": "102",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "13.0872004",
+      "BranchLongitude": "80.2164421",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "95777",
+          "BranchID": "1351",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "95780",
+          "BranchID": "1351",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1348",
+      "BranchName": "reacttest",
+      "UniqueBranchID": "101",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "11.5330743",
+      "BranchLongitude": "77.97340010370982",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "94938",
+          "BranchID": "1348",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "94941",
+          "BranchID": "1348",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1343",
+      "BranchName": "Devi",
+      "UniqueBranchID": "100",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "96217",
+          "BranchID": "1343",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "96219",
+          "BranchID": "1343",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1342",
+      "BranchName": "Chennai South",
+      "UniqueBranchID": "99",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "AccountID": ""
+    },
+    {
+      "BranchID": "1336",
+      "BranchName": "BANKI",
+      "UniqueBranchID": "2",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "91292",
+          "BranchID": "1336",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "91294",
+          "BranchID": "1336",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1318",
+      "BranchName": "RK",
+      "UniqueBranchID": "97",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "90487",
+          "BranchID": "1318",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "90489",
+          "BranchID": "1318",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1312",
+      "BranchName": "tested",
+      "UniqueBranchID": "96",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "89259",
+          "BranchID": "1312",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "89262",
+          "BranchID": "1312",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1310",
+      "BranchName": "HARIN",
+      "UniqueBranchID": "94",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "11.595068475985",
+      "BranchLongitude": "78.156652905002",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "89047",
+          "BranchID": "1310",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "89050",
+          "BranchID": "1310",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1309",
+      "BranchName": "RAMI",
+      "UniqueBranchID": "93",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "11.557398499845",
+      "BranchLongitude": "78.162147007265",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "88941",
+          "BranchID": "1309",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "88944",
+          "BranchID": "1309",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1306",
+      "BranchName": "KubaQRBranch",
+      "UniqueBranchID": "91",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "89438",
+          "BranchID": "1306",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "89440",
+          "BranchID": "1306",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1303",
+      "BranchName": "GN PALAYAM",
+      "UniqueBranchID": "89",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": null,
+      "BranchLongitude": null,
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "94897",
+          "BranchID": "1303",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "94899",
+          "BranchID": "1303",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1300",
+      "BranchName": "Email",
+      "UniqueBranchID": "90",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": null,
+      "BranchLongitude": null,
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "91402",
+          "BranchID": "1300",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "91404",
+          "BranchID": "1300",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1297",
+      "BranchName": "Gold Loan",
+      "UniqueBranchID": "63",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "87522",
+          "BranchID": "1297",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "87524",
+          "BranchID": "1297",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1275",
+      "BranchName": "New Chan Branch",
+      "UniqueBranchID": "62",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "30.7334421",
+      "BranchLongitude": "76.7797143",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "85869",
+          "BranchID": "1275",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "85872",
+          "BranchID": "1275",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1269",
+      "BranchName": "LAT LONG",
+      "UniqueBranchID": "60",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "12.361565855818",
+      "BranchLongitude": "79.969837067949",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "85661",
+          "BranchID": "1269",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "85664",
+          "BranchID": "1269",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1267",
+      "BranchName": "HKed",
+      "UniqueBranchID": "58",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "11.7192761",
+      "BranchLongitude": "78.0763688",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "85457",
+          "BranchID": "1267",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "85460",
+          "BranchID": "1267",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1252",
+      "BranchName": "Test Adminweq",
+      "UniqueBranchID": "56",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "85045",
+          "BranchID": "1252",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "85048",
+          "BranchID": "1252",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1251",
+      "BranchName": "HARINCHECK",
+      "UniqueBranchID": "55",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "84945",
+          "BranchID": "1251",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "84948",
+          "BranchID": "1251",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1250",
+      "BranchName": "Test Admin",
+      "UniqueBranchID": "54",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "11.272019710945",
+      "BranchLongitude": "78.173135809084",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "84845",
+          "BranchID": "1250",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "84848",
+          "BranchID": "1250",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1241",
+      "BranchName": "Krishna",
+      "UniqueBranchID": "5",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": null,
+      "BranchLongitude": null,
+      "AccountID": ""
+    },
+    {
+      "BranchID": "1191",
+      "BranchName": "sathish",
+      "UniqueBranchID": "45",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "84627",
+          "BranchID": "1191",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "84629",
+          "BranchID": "1191",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1190",
+      "BranchName": "GOLD",
+      "UniqueBranchID": "44",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "84439",
+          "BranchID": "1190",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "84441",
+          "BranchID": "1190",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1164",
+      "BranchName": "Sabari",
+      "UniqueBranchID": "37",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "84531",
+          "BranchID": "1164",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "84533",
+          "BranchID": "1164",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1111",
+      "BranchName": "Account",
+      "UniqueBranchID": "35",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "83831",
+          "BranchID": "1111",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "83833",
+          "BranchID": "1111",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1110",
+      "BranchName": "cuddalore",
+      "UniqueBranchID": "34",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "AccountID": ""
+    },
+    {
+      "BranchID": "1105",
+      "BranchName": "Agalya",
+      "UniqueBranchID": "32",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "AccountID": ""
+    },
+    {
+      "BranchID": "1096",
+      "BranchName": "THANJAVUR",
+      "UniqueBranchID": "30",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "83923",
+          "BranchID": "1096",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "83925",
+          "BranchID": "1096",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1062",
+      "BranchName": "7339377919",
+      "UniqueBranchID": "29",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": null,
+      "BranchLongitude": null,
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "83756",
+          "BranchID": "1062",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        },
+        {
+          "FinanceAccountID": "83757",
+          "BranchID": "1062",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23975,23973"
+    },
+    {
+      "BranchID": "1059",
+      "BranchName": "HK",
+      "UniqueBranchID": "28",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "12.9654669",
+      "BranchLongitude": "80.1451178",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "81804",
+          "BranchID": "1059",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "81807",
+          "BranchID": "1059",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1043",
+      "BranchName": "pallavaram",
+      "UniqueBranchID": "27",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "12.197086508512",
+      "BranchLongitude": "79.826859992961",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "81718",
+          "BranchID": "1043",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "81721",
+          "BranchID": "1043",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1029",
+      "BranchName": "Branch",
+      "UniqueBranchID": "26",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "81546",
+          "BranchID": "1029",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "81549",
+          "BranchID": "1029",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "1013",
+      "BranchName": "Test branch AAA",
+      "UniqueBranchID": "23",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "11.192884313422",
+      "BranchLongitude": "78.892842906037",
+      "AccountID": ""
+    },
+    {
+      "BranchID": "849",
+      "BranchName": "jack sub branch  (Sub Branch)",
+      "UniqueBranchID": "16.1",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "1",
+      "mainBranchID": "848",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "68233",
+          "BranchID": "849",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "68236",
+          "BranchID": "849",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "845",
+      "BranchName": "ELAKKURICHY.",
+      "UniqueBranchID": "9",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "1",
+      "mainBranchID": "826",
+      "BranchLatitude": "11.858036565822",
+      "BranchLongitude": "79.749700109262",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "67821",
+          "BranchID": "845",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "67824",
+          "BranchID": "845",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "843",
+      "BranchName": "Kodungaiyur",
+      "UniqueBranchID": "14",
+      "isSubBranch": "0",
+      "subBranchUniqueID": "",
+      "mainBranchID": "0",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "67578",
+          "BranchID": "843",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "67581",
+          "BranchID": "843",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "842",
+      "BranchName": "Valasaravakkam Test sub edit (Sub Branch)",
+      "UniqueBranchID": "1.9",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "9",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "67497",
+          "BranchID": "842",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "67500",
+          "BranchID": "842",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "841",
+      "BranchName": "NENW (Sub Branch)",
+      "UniqueBranchID": "1.8",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "8",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "67416",
+          "BranchID": "841",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "67419",
+          "BranchID": "841",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "838",
+      "BranchName": "nnnew sub (Sub Branch)",
+      "UniqueBranchID": "1.6",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "6",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66663",
+          "BranchID": "838",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66666",
+          "BranchID": "838",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "835",
+      "BranchName": "anna nagar (Sub Branch)",
+      "UniqueBranchID": "1.3",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "3",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66420",
+          "BranchID": "835",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66423",
+          "BranchID": "835",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "834",
+      "BranchName": "Sub Perambur (Sub Branch)",
+      "UniqueBranchID": "1.2",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "2",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66339",
+          "BranchID": "834",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66342",
+          "BranchID": "834",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "833",
+      "BranchName": "Branch Sub (Sub Branch)",
+      "UniqueBranchID": "1.1",
+      "isSubBranch": "1",
+      "subBranchUniqueID": "1",
+      "mainBranchID": "531",
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66258",
+          "BranchID": "833",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66261",
+          "BranchID": "833",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "832",
+      "BranchName": "New Sub Branch",
+      "UniqueBranchID": "13",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66177",
+          "BranchID": "832",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66180",
+          "BranchID": "832",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "831",
+      "BranchName": "Next sub br",
+      "UniqueBranchID": "12",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66096",
+          "BranchID": "831",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66099",
+          "BranchID": "831",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "830",
+      "BranchName": "Sub First Branch",
+      "UniqueBranchID": "11",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0479859",
+      "BranchLongitude": "79.8793336",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "66015",
+          "BranchID": "830",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "66018",
+          "BranchID": "830",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "826",
+      "BranchName": "New branch",
+      "UniqueBranchID": "10",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "65730",
+          "BranchID": "826",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "65733",
+          "BranchID": "826",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "812",
+      "BranchName": "ERAVANCHERY",
+      "UniqueBranchID": "9",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "10.133144652698",
+      "BranchLongitude": "78.299542721065",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "64936",
+          "BranchID": "812",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        }
+      ],
+      "AccountID": "23973"
+    },
+    {
+      "BranchID": "811",
+      "BranchName": "Branch Name",
+      "UniqueBranchID": "8",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": null,
+      "BranchLongitude": null,
+      "AccountID": ""
+    },
+    {
+      "BranchID": "632",
+      "BranchName": "test",
+      "UniqueBranchID": "8",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "36538",
+          "BranchID": "632",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "36540",
+          "BranchID": "632",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "631",
+      "BranchName": "Trichy",
+      "UniqueBranchID": "7",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "36475",
+          "BranchID": "631",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "36477",
+          "BranchID": "631",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "612",
+      "BranchName": "HighMark",
+      "UniqueBranchID": "5",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "",
+      "BranchLongitude": "",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "35218",
+          "BranchID": "612",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "35220",
+          "BranchID": "612",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "547",
+      "BranchName": "Branch Four",
+      "UniqueBranchID": "4",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0826802",
+      "BranchLongitude": "80.2707184",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "27339",
+          "BranchID": "547",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "27341",
+          "BranchID": "547",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "541",
+      "BranchName": "testing",
+      "UniqueBranchID": "3",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0826802",
+      "BranchLongitude": "80.2707184",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "26437",
+          "BranchID": "541",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "26439",
+          "BranchID": "541",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    },
+    {
+      "BranchID": "531",
+      "BranchName": "First Branch ",
+      "UniqueBranchID": "1",
+      "isSubBranch": "0",
+      "subBranchUniqueID": null,
+      "mainBranchID": null,
+      "BranchLatitude": "13.0836939",
+      "BranchLongitude": "80.270186",
+      "BranchAccount": [
+        {
+          "FinanceAccountID": "24506",
+          "BranchID": "531",
+          "BranchType": "Cash",
+          "AccountID": "23973"
+        },
+        {
+          "FinanceAccountID": "24508",
+          "BranchID": "531",
+          "BranchType": "Bank",
+          "AccountID": "23975"
+        }
+      ],
+      "AccountID": "23973,23975"
+    }
+  ],
+  "message": "Fetch All Branch List Successfully"
+}
+                </pre>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
