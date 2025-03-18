@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FetchBranchDetails API</title>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>URL</th>
+            <td>https://api.squarenow.co.in/SquareNowWeb/fetchBranchDetails</td>
+        </tr>
+        <tr>
+            <th>CONTENT TYPE</th>
+            <td>application/json</td>
+        </tr>
+        <tr>
+            <th>METHOD</th>
+            <td>POST</td>
+        </tr>
+        <tr>
+            <th>PAYLOAD (DATA)</th>
+            <td>
+                <pre>
+{
+  "CompanyID": "118",
+  "AreaID": "1351",
+  "DatabaseName": "General"
+}
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <th>RESPONSE</th>
+            <td>
+                <pre>
+{
+  "data": [
+    {
+      "branchID": "1351",
+      "branchName": "Anna Nagar West",
+      "nextUniqueAreaID": "102",
+      "branchPincode": "600011",
+      "village": "Anna Naga",
+      "branchAddress": "Anna Nagar, Chennai",
+      "branchLocation": "",
+      "branchMapLatitude": "13.0872004",
+      "branchMapLongitude": "80.2164421",
+      "mainBranchID": "0",
+      "isSubBranchText": "",
+      "subBranchUniqueID": "",
+      "isSubBranch": false,
+      "MainBranchUniqueID": "",
+      "MainBranchName": "",
+      "isHeadOffice": false,
+      "branchStartDate": "2025-02-27",
+      "branchCountry": "India",
+      "branchState": "Tamil Nadu",
+      "branchCity": "Chennai",
+      "branchDistrict": "Chennai",
+      "branchCountryID": "101",
+      "branchStateID": "35",
+      "branchCityID": "3659",
+      "branchDistrictID": "578"
+    }
+  ],
+  "message": "Successfully Fetch Branch Details"
+}
+                </pre>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
