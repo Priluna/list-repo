@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpdateVersionDetails API</title>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>URL</th>
+            <td>https://api.squarenow.co.in/SquareNowWeb/getBranchList</td>
+        </tr>
+        <tr>
+            <th>CONTENT TYPE</th>
+            <td>application/json</td>
+        </tr>
+        <tr>
+            <th>METHOD</th>
+            <td>POST</td>
+        </tr>
+        <tr>
+            <th>PAYLOAD (DATA)</th>
+            <td>
+                <pre>
+{
+  "CompanyID": "118",
+  "DatabaseName": "General",
+  "IsBranch": true,
+  "IsCenter": false
+}
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <th>RESPONSE</th>
+            <td>
+                <pre>
+{
+  "data": {
+    "data": [
+      {
+        "Company": [
+          {
+            "CityVersion": 1,
+            "StateVersion": 1,
+            "CountryVersion": 1,
+            "BranchVersion": 82,
+            "CenterVersion": 102,
+            "GroupVersion": 1
+          }
+        ]
+      }
+    ]
+  },
+  "message": "Version Details Updated Successfully"
+}
+                </pre>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
